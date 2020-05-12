@@ -1,0 +1,92 @@
+/* BASE STYLE */
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  h1 {
+    margin-bottom: 45px;
+    text-align: center;
+  }
+  
+  .item {
+    border: 3px solid black;
+    background-color: aqua;
+    width: 90%;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+
+  p {
+      padding: 0px;
+      margin: 0px;
+      margin-bottom: 5px;
+      border-bottom: 2px solid black;
+      border-left: 2px solid black;
+      width: 35%;
+      height: 15%;
+      float: right;
+      text-align: center;
+      font-weight: bolder;   
+    }
+
+.chicken{
+    background-color: gold;
+}
+
+.beef {
+    background-color: magenta;
+}
+
+.sushi {
+    background-color: red;
+}
+
+  section {
+      padding-right: 10px;
+      padding-left: 10px;
+      clear: both;
+      font-weight: bold;
+  }
+  
+  /* Simple Responsive Framework. */
+
+  .row {
+    width: 100%;
+  }
+
+  /* LARGE */
+  @media (min-width: 992px) {
+    .col-lg-4 {
+      float: left;
+    }
+    .col-lg-4 {
+      width: 33.33%;
+    }
+  }
+  
+  /* MEDIUM */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+      float: left;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-12 {
+      width: 100%;
+    }
+  }  
+
+  /* SMALL */
+  @media (max-width: 767px){
+    .col-sm-12 {
+      float: left;
+    }
+    .col-sm-12 {
+      width: 100%;
+    }
+  }
+  

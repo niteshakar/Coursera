@@ -1,0 +1,37 @@
+body{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: grey;
+}
+.navbar-brand{
+    font-weight: bolder;
+}
+h2{
+    font-weight: 500;
+}
+h3{
+    text-align: center;
+    font-weight: 300;
+}
+section{
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+p{
+    padding : 20px;
+}
+#chicken{
+    background-color: coral;
+}
+#beef{
+    background-color: cornflowerblue;
+}
+#sushi{
+    background-color: deeppink;
+}
+li:hover{
+    border: 2px solid black;
+    background-color: goldenrod;
+}
